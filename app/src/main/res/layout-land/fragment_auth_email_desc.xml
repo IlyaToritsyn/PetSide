@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+
+            app:cardCornerRadius="8dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                xmlns:tools="http://schemas.android.com/tools"
+
+                android:id="@+id/root_auth_email_desc"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                tools:context=".AuthEmailDescFragment"
+
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/app_name_auth_email_desc"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginStart="40dp"
+
+                    layout="@layout/app_name" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/email_layout_auth_email_desc"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/app_name_auth_email_desc"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginStart="64dp"
+
+                    android:hint="@string/email"
+                    app:boxStrokeColor="@color/grey"
+                    app:boxStrokeErrorColor="@color/red"
+                    android:textColorHint="@color/grey_light">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/email_edit_auth_email_desc"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/grey"
+                        android:singleLine="true"
+                        android:inputType="textEmailAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/desc_layout_auth_email_desc"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/email_layout_auth_email_desc"
+                    app:layout_constraintEnd_toEndOf="@id/email_layout_auth_email_desc"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/email_layout_auth_email_desc"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="40dp"
+
+                    android:hint="@string/desc"
+                    app:boxStrokeColor="@color/grey"
+                    app:boxStrokeErrorColor="@color/red"
+                    android:textColorHint="@color/grey_light">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/desc_edit_auth_email_desc"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/grey"
+                        android:singleLine="true" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.core.widget.NestedScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/button_auth_email_desc"
+
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center"
+
+            layout="@layout/next_button" />
+    </FrameLayout>
+</LinearLayout>

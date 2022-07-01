@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/drawable/button_selector.xml" value="0.326" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/drawable/ic_next_button.xml" value="0.326" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/layout-land/activity_main.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/layout-land/fragment_auth_api_key.xml" value="0.3106796116504854" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/layout-land/fragment_auth_email_desc.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/layout/activity_auth.xml" value="0.33469202898550726" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/layout/app_name.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/layout/fragment_auth_api_key.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/layout/fragment_auth_base.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/layout/fragment_auth_email_desc.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/layout/fragment_feed.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/torit/AndroidStudioProjects/PetSide/app/src/main/res/layout/next_button.xml" value="1.0" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
